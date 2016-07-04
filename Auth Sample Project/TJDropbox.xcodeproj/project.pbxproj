@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222000091CBCAFD1007EA75A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 222000081CBCAFD1007EA75A /* main.m */; };
+		2220000C1CBCAFD1007EA75A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2220000B1CBCAFD1007EA75A /* AppDelegate.m */; };
+		222000141CBCAFD1007EA75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222000131CBCAFD1007EA75A /* Assets.xcassets */; };
+		222000171CBCAFD1007EA75A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222000151CBCAFD1007EA75A /* LaunchScreen.storyboard */; };
+		22B76DE11CD1C5C70096A166 /* TJDropboxTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B76DDF1CD1C5C70096A166 /* TJDropboxTestViewController.m */; };
+		22B76DE21CD1C5C70096A166 /* TJDropboxTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B76DE01CD1C5C70096A166 /* TJDropboxTestViewController.xib */; };
+		22B76DE71CD1C9DB0096A166 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B76DE41CD1C9DB0096A166 /* SSKeychain.m */; };
+		22B76DE81CD1C9DB0096A166 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B76DE61CD1C9DB0096A166 /* SSKeychainQuery.m */; };
+		22EF0A471CC9CDC4004E074D /* TJDropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EF0A441CC9CDC4004E074D /* TJDropbox.m */; };
+		22EF0A481CC9CDC4004E074D /* TJDropboxAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EF0A461CC9CDC4004E074D /* TJDropboxAuthenticationViewController.m */; };
+		D6FA20A81D225CEA00360602 /* TDTDropboxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FA20A71D225CEA00360602 /* TDTDropboxHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222000041CBCAFD1007EA75A /* TJDropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJDropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222000081CBCAFD1007EA75A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2220000A1CBCAFD1007EA75A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2220000B1CBCAFD1007EA75A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		222000131CBCAFD1007EA75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		222000161CBCAFD1007EA75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		222000181CBCAFD1007EA75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B76DDE1CD1C5C70096A166 /* TJDropboxTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJDropboxTestViewController.h; sourceTree = "<group>"; };
+		22B76DDF1CD1C5C70096A166 /* TJDropboxTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJDropboxTestViewController.m; sourceTree = "<group>"; };
+		22B76DE01CD1C5C70096A166 /* TJDropboxTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TJDropboxTestViewController.xib; sourceTree = "<group>"; };
+		22B76DE31CD1C9DB0096A166 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		22B76DE41CD1C9DB0096A166 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		22B76DE51CD1C9DB0096A166 /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		22B76DE61CD1C9DB0096A166 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		22EF0A431CC9CDC4004E074D /* TJDropbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJDropbox.h; sourceTree = "<group>"; };
+		22EF0A441CC9CDC4004E074D /* TJDropbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJDropbox.m; sourceTree = "<group>"; };
+		22EF0A451CC9CDC4004E074D /* TJDropboxAuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJDropboxAuthenticationViewController.h; sourceTree = "<group>"; };
+		22EF0A461CC9CDC4004E074D /* TJDropboxAuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJDropboxAuthenticationViewController.m; sourceTree = "<group>"; };
+		D6FA20A61D225CEA00360602 /* TDTDropboxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDropboxHelper.h; sourceTree = "<group>"; };
+		D6FA20A71D225CEA00360602 /* TDTDropboxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDropboxHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222000011CBCAFD1007EA75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222000051CBCAFD1007EA75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222000041CBCAFD1007EA75A /* TJDropbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222000061CBCAFD1007EA75A /* TJDropbox */ = {
+			isa = PBXGroup;
+			children = (
+				2220000A1CBCAFD1007EA75A /* AppDelegate.h */,
+				2220000B1CBCAFD1007EA75A /* AppDelegate.m */,
+				22B76DDE1CD1C5C70096A166 /* TJDropboxTestViewController.h */,
+				22B76DDF1CD1C5C70096A166 /* TJDropboxTestViewController.m */,
+				22B76DE01CD1C5C70096A166 /* TJDropboxTestViewController.xib */,
+				D6FA20A61D225CEA00360602 /* TDTDropboxHelper.h */,
+				D6FA20A71D225CEA00360602 /* TDTDropboxHelper.m */,
+				22EF0A421CC9CDC4004E074D /* TJDropbox */,
+				22B76DE91CD1C9E00096A166 /* SSKeychain */,
+				222000131CBCAFD1007EA75A /* Assets.xcassets */,
+				222000151CBCAFD1007EA75A /* LaunchScreen.storyboard */,
+				222000181CBCAFD1007EA75A /* Info.plist */,
+				222000071CBCAFD1007EA75A /* Supporting Files */,
+			);
+			path = TJDropbox;
+			sourceTree = "<group>";
+		};
+		222000071CBCAFD1007EA75A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				222000081CBCAFD1007EA75A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2220FFFB1CBCAFD1007EA75A = {
+			isa = PBXGroup;
+			children = (
+				222000061CBCAFD1007EA75A /* TJDropbox */,
+				222000051CBCAFD1007EA75A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B76DE91CD1C9E00096A166 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				22B76DE31CD1C9DB0096A166 /* SSKeychain.h */,
+				22B76DE41CD1C9DB0096A166 /* SSKeychain.m */,
+				22B76DE51CD1C9DB0096A166 /* SSKeychainQuery.h */,
+				22B76DE61CD1C9DB0096A166 /* SSKeychainQuery.m */,
+			);
+			name = SSKeychain;
+			sourceTree = "<group>";
+		};
+		22EF0A421CC9CDC4004E074D /* TJDropbox */ = {
+			isa = PBXGroup;
+			children = (
+				22EF0A431CC9CDC4004E074D /* TJDropbox.h */,
+				22EF0A441CC9CDC4004E074D /* TJDropbox.m */,
+				22EF0A451CC9CDC4004E074D /* TJDropboxAuthenticationViewController.h */,
+				22EF0A461CC9CDC4004E074D /* TJDropboxAuthenticationViewController.m */,
+			);
+			name = TJDropbox;
+			path = ../../TJDropbox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222000031CBCAFD1007EA75A /* TJDropbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2220001B1CBCAFD1007EA75A /* Build configuration list for PBXNativeTarget "TJDropbox" */;
+			buildPhases = (
+				222000001CBCAFD1007EA75A /* Sources */,
+				222000011CBCAFD1007EA75A /* Frameworks */,
+				222000021CBCAFD1007EA75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TJDropbox;
+			productName = TJDropbox;
+			productReference = 222000041CBCAFD1007EA75A /* TJDropbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2220FFFC1CBCAFD1007EA75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tijo;
+				TargetAttributes = {
+					222000031CBCAFD1007EA75A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 2220FFFF1CBCAFD1007EA75A /* Build configuration list for PBXProject "TJDropbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2220FFFB1CBCAFD1007EA75A;
+			productRefGroup = 222000051CBCAFD1007EA75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222000031CBCAFD1007EA75A /* TJDropbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222000021CBCAFD1007EA75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B76DE21CD1C5C70096A166 /* TJDropboxTestViewController.xib in Resources */,
+				222000171CBCAFD1007EA75A /* LaunchScreen.storyboard in Resources */,
+				222000141CBCAFD1007EA75A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222000001CBCAFD1007EA75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2220000C1CBCAFD1007EA75A /* AppDelegate.m in Sources */,
+				22EF0A481CC9CDC4004E074D /* TJDropboxAuthenticationViewController.m in Sources */,
+				22EF0A471CC9CDC4004E074D /* TJDropbox.m in Sources */,
+				22B76DE81CD1C9DB0096A166 /* SSKeychainQuery.m in Sources */,
+				222000091CBCAFD1007EA75A /* main.m in Sources */,
+				22B76DE11CD1C5C70096A166 /* TJDropboxTestViewController.m in Sources */,
+				22B76DE71CD1C9DB0096A166 /* SSKeychain.m in Sources */,
+				D6FA20A81D225CEA00360602 /* TDTDropboxHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		222000151CBCAFD1007EA75A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222000161CBCAFD1007EA75A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		222000191CBCAFD1007EA75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2220001A1CBCAFD1007EA75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2220001C1CBCAFD1007EA75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TJDropbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tijo.TJDropbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2220001D1CBCAFD1007EA75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TJDropbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tijo.TJDropbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2220001B1CBCAFD1007EA75A /* Build configuration list for PBXNativeTarget "TJDropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2220001C1CBCAFD1007EA75A /* Debug */,
+				2220001D1CBCAFD1007EA75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2220FFFF1CBCAFD1007EA75A /* Build configuration list for PBXProject "TJDropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222000191CBCAFD1007EA75A /* Debug */,
+				2220001A1CBCAFD1007EA75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2220FFFC1CBCAFD1007EA75A /* Project object */;
+}
